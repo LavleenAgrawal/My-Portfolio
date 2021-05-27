@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Lavleen Agrawal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <!--NavBar-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Lavleen Agrawal</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#works">Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="container mt-3">
+    <!--Home-->
+      <section id="home" 
+      class="d-flex justify-content-sm-center justify-content-md-evenly align-items-center flex-column-reverse gap-3 flex-md-row">
+        <div class="d-flex justify-content-sm-center align-items-center flex-column justify-content-md-start align-items-md-start">
+          <h5> Hey! </h5>
+          <h1> I'm Lavleen Agrawal </h1>
+          <p> Computer Science Engineer </p>
+          <button class="btn btn-primary"> Resume </button>
+        </div>
+        <div class="w-50 h-50">
+          <img src="https://image.freepik.com/free-vector/cute-stylish-girl-standing_96037-464.jpg" 
+          alt="image" 
+          class="w-100 h-100 img-fluid">
+        </div>
+      </section>
+
+    <!--Skills-->
+      <section id="skills" class="mt-5 bg-light p-4 rounded border border-primary border border-4">
+        <h1 class="text-dark text-center">My Skill Set</h1>
+        <div class="d-flex justify-content-between mt-4">
+          <i class="fab fa-java fa-6x" style="color:#cc0000"></i>
+          <i class="fab fa-python fa-6x" style="color:#0376a3"></i>
+        </div>
+        <div class="d-flex justify-content-evenly mt-4">
+          <i class="fab fa-html5 fa-6x" style="color:#f4470b"></i>
+          <i class="fab fa-css3-alt fa-6x" style="color:#00b1cc"></i>
+          <i class="fab fa-bootstrap fa-6x" style="color:#730fef"></i>
+        </div>
+      </section>
+
+    <!--Works-->
+      <section id="works" class="mt-5 p-4">
+        <h1 class="text-dark text-center mb-3">My Works</h1>
+        <div class="d-flex flex-column flex-md-row justify-content-md-evenly gap-4">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="pic">
+          <div class="card-body text-center">
+            <h5 class="card-title">AudioBook</h5>
+            <p class="card-text">Text to Speech Converter built using Python.</p>
+            <a href="#" class="btn btn-dark">View Source <i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1605811791892-63eb7c83a5b8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="pic">
+          <div class="card-body text-center">
+            <h5 class="card-title">Paint</h5>
+            <p class="card-text">Built paint GUI using Tkinter.</p>
+            <a href="#" class="btn btn-dark">View Source <i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1524678714210-9917a6c619c2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80" class="card-img-top" alt="pic">
+          <div class="card-body text-center">
+            <h5 class="card-title">Lavleen's Schedulo</h5>
+            <p class="card-text">To-do list with calender using HTML, CSS and php.</p>
+            <a href="#" class="btn btn-dark">View Source <i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        </div>
+      </section>
+
+    <!--Contact Me-->
+      <section id="contact" class="mt-4 py-4 bg-light">
+        <h1 class="text-dark text-center mb-3">Contact Me</h1>
+        <div class="d-flex flex-column flex-md-row justify-content-md-center">
+        <form>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" required class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" required placeholder="enter your review..." rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        </div>
+        <div class="mt-5 text-center">
+          <h6><i class="fas fa-paper-plane text-primary"></i> lavleen.agr7@gmail.com</h6>
+        </div>
+      </section>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
+</html>
